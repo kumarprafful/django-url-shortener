@@ -19,7 +19,7 @@ def shorten_url(request):
                                                             defaults={
                                                                 'pk':short_id,
                                                                 'long_url': url,
-                                                                'short_url': settings.SITE_URL+'/'+short_id
+                                                                'short_url': settings.SITE_URL+short_id
                                                                 })
                 serializer = URLSerializer(url_obj)
                 return Response(serializer.data, status=200)
