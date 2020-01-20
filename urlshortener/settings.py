@@ -25,7 +25,7 @@ SECRET_KEY = 'tadgr)*$$srlw0@kexyof-o^lextsy^ymg$)&3ov65+pna68^l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['139.59.77.136', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['139.59.77.136', 'fidly.in','localhost', '127.0.0.1']
 
 
 # Application definition
