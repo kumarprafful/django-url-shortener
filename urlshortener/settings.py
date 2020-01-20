@@ -121,7 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # STATICFILES_DIRS = [STATIC_DIR,]
-STATIC_ROOT = 'static/'
+STATIC_ROOT = '/django-url-shortener/static/'
 
 SITE_URL = 'http://fidly.in/'
 
