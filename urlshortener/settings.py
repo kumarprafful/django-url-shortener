@@ -120,10 +120,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'django-url-shortener/static/'
 # STATICFILES_DIRS = [STATIC_DIR,]
-STATIC_ROOT = 'static/'
 
-SITE_URL = 'http://fidly.in/'
+SITE_URL = 'http://fidly.in/' #always include the trailing backslash
 
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': (
