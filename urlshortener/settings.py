@@ -121,4 +121,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-SITE_URL = 'localhost:8000'
+SITE_URL = 'http://fidly.in/'
