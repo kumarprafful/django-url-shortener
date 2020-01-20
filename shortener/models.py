@@ -11,3 +11,6 @@ class URLs(models.Model):
 
     def __str__(self):
         return self.short_id + ' - ' +  self.long_url
+    
+    class Meta:
+        verbose_name = 'URL'
