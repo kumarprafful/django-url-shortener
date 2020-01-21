@@ -122,7 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = STATIC_DIR
 
-SITE_URL = 'http://fidly.in/' #always include the trailing backslash
+SITE_URL = 'fidly.in/' #always include the trailing backslash
 
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': (
