@@ -16,10 +16,9 @@ def shorten_url(request):
             url = request.data['url']
             if not url == '' and validators.url(url):
                 short_id = get_short_id()
-                url_obj, _ = URLs.objects.get_or_create(long_url= url,
+                url_obj, _ = URLs.objects.get_or_create(long_url=url,
                                                             defaults={
-                                                                'pk':short_id,
-                                                                'long_url': url,
+                                                                'pk' : short_id,
                                                                 'short_url': settings.SITE_URL+short_id
                                                                 })
                 serializer = URLSerializer(url_obj)
