@@ -1,3 +1,3 @@
 # django-url-shortener
 
-can spun this up in an instance and use it as private url shortner. 
+can spin this up in an instance and use it as private url shortner. 
